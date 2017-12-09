@@ -1,23 +1,19 @@
-# D&D 5e LaTeX Template
+# Magia Baixa
 
-This is an attempt at a D&D 5e LaTeX template. The color scheme is close to the original source books, as are the fonts. The fonts chosen are included by default in TeX Live.
-
-The template compiles with pdflatex.
-
-![Preview](https://github.com/evanbergeron/DND-5e-LaTeX-Template/raw/master/scrot.png)
+RPG Diceless sobre magia.
 
 
-### Installation
+### Contribuições
 
-Just clone the repo. From terminal:
+Clone o repositório:
 
 ```sh
-$ git clone https://github.com/evanbergeron/DND-5e-LaTeX-Template.git 5e-template
-$ cd 5e-template
-$ pdflatex example.tex
+$ git clone https://github.com/ruliana/magia-baixa
+$ cd magia-baixa
+$ pdflatex book.tex
 ```
 
-If you don't have LaTeX installed, the following should help you out:
+Se você não tem o Latex instalado:
 #### Ubuntu
 ```sh
 sudo apt-get install texlive-full
@@ -26,34 +22,20 @@ sudo apt-get install texlive-full
 ```sh
 sudo pacman -S texlive-bin texlive-core texlive-latexextra
 ```
-It's a bit unclear exactly what subset of features this module needs. As a general rule, we'd recommend installing one of larger ones.
 
-### Package Options
-- bg-letter: Loads a letter-sized background-image
-- bg-a4: Loads an A4-sized background-image
-- bg-print: Loads a printer-friendly background-image (only decal at the bottom)
-- bg-full: Loads the full background-image
+### Imagens
 
-Per default "bg-letter" and "bg-full" are loaded.
+ - Créditos pelas imagens de fundo http://lostandtaken.com/
 
-### Todo's
+### Versões
+0.01 - Somente estrutura.
 
- - Consider implementing more complex tables for monsters, etc.
- - Clean up the table-preset
- - Create more elegant solution for spacing before and after boxes (using \vspace is rather rigid when two boxes follow in a row)
- - Add subtitle option for boxes
- - Sort out box-decals when boxes break column or page
- - Look into adding the ability to add large images to the document. There are some documents made with InDesign out there that accomplish this quite well.
+### Licença
 
+Conteúdo original de Ronie Uliana, gratuito para uso pessoal, modificações permitidas, comercialização proibida.
 
-### Image Credit
+Template Latex derivado do [template DnD](https://github.com/evanbergeron/DND-5e-LaTeX-Template) de Evan Bergeron com a licença abaixo:
 
- - Credit for the background image goes to http://lostandtaken.com/
-
-### Version
-0.5
-
-### License
 The MIT License (MIT)
 
 Copyright (c) 2016 Evan Bergeron
